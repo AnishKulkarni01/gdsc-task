@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <meta charset="utf-8">
+ 
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
+
+
+  <!-- CSS Stylesheets -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+  <script src="https://kit.fontawesome.com/fe3c6b0d42.js" crossorigin="anonymous"></script>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+  
+  <nav class="navbar navbar-light newnav fixed-top" id="nav1" ">
+    
+    <div class="flex-container-top nav2" style="padding-left: 2%;">
+      <div class=""><button class="navbar-toggler" id='nav2'style="display:inline-block"type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button></div>
+      <div> <a class="navbar-brand " href="#"><img src="css/Uber_Eats.png" class="logo"></img></a></div>
+     
+      <div class="nav-bt"> 
+        <a href="#" class="btn ofc2 rounded-pill" role="button" data-bs-toggle="button" id="login" style="background-color: white;" ><i class="fa-solid fa-user"></i>Log In</a><span style="margin: 0 5px;"></span>
+        <a href="#" class="btn ofc2 rounded-pill" role="button" data-bs-toggle="button" style="color: white;background-color: black;"> Sign Up</a>
+      </div>
+     
+      <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-body" style="padding-right: 0;">
+          <ul class="navbar-nav justify-content-center flex-grow-1 pe-3 container-fluid" style="padding-right: 0;">
+
+            <div class="d-grid gap-3" style="margin-bottom :15px;">
+
+              <button type="button" class="btn btn-dark ofc-btn">Sign Up</button>
+              <button type="button" class="btn  ofc3">Log In</button>
+              
+            
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Create a business account</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Add your restaurant</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Sign up to deliver</a>
+            </li>
+
+            <li class="align-bottom" style="margin: 75% 0 5px 0;">
+               <div style="margin-right:0"><img src="https://d3i4yxtzktqr9n.cloudfront.net/web-eats-v2/d524e619911872cb8ff783bcd7ab4290.svg" style="float:left;height:50px;margin-right:10px;">There's more to love in the app.
+            </li>
+              
+            <li>
+                      <div> 
+              <a href="#" class="btn ofc2 rounded-pill" role="button" data-bs-toggle="button"><i class="fab fa-apple"></i> iPhone</a><span style="margin: 0 5px;"></span>
+              <a href="#" class="btn ofc2 rounded-pill" role="button " data-bs-toggle="button"><i class="fab fa-google-play"></i> Android</a>
+            </div>
+            </li>
+          </ul>
+      
+      </div>
+     
+    </div>
+  </nav>
+
+  <section class="colored-section" style="padding-bottom:100px ;">
+ 
+
+
+  
+
+  <div class="title container-fluid" style="padding-left: 2%;">
+    <div id="specs" style="position: relative;bottom: 50px;"> </div>
+<h1>Order food to your door</h1>
+<form>
+  
+  <div class="row" style="margin-top: 3%;">
+    <div class="col-md-4 col-sm-12" style="margin-bottom:2%;">
+      <div></div><input type="text" style="font-family: FontAwesome,sans-serif; color:black; height:130%;" class="form-control" placeholder="&#xf3c5 Enter Delivery Address">
+    </div>
+    <div class="col-md-2 col-sm-6"style="margin-bottom:2%;" >
+      <select class="form-control form-control-md " style="height: 130%; font-family:sans-serif;">
+        
+        <option  >Deliver Now</option>
+        <option>Schedule Later</option>
+      </select>
+      
+    </div>
+    <div class="col-md-4"style="margin-bottom:2%;">
+      <button type="button" class="btn btn-dark btt" style="height:130%;">Find Food</button>
+    </div>
+
+    </div>
+    <p style="margin-top:1%; "><a href="#"style="color:black;">Sign-in</a> for your recent address</p>
+  </div>
+</form>
+</div>
+</section>
+
+
+
+<section class="container-fluid" >
+  <p>ok</p>
+ 
+  
+<div class="row" style="margin:30px 22px;">
+  <div class="col-md-4 col-sm-12"><img src="css/s2i1.png" class="s2i"><h3>Feed Your Employees</h3><p><a href="#" style="color: black;">Create a business account</a></p></img></div>
+  <div class="col-md-4 col-sm-12"><img src="css/s2i2.png" class="s2i"><h3>Your restaurant, delivered</h3><p><a href="#" style="color: black;">Add your restaurant</a></p></img></div>
+  <div class="col-md-4 col-sm-12"><img src="css/s2i3.png" class="s2i"><h3>Deliver with Uber Eats</h3><p><a href="#" style="color: black;">Sign up to deliver</a></p></img></div>
+</div>
+<h2 style="margin-left:22px" >Cities Near Me</h2>
+<div class="row"><div><img class="container-fluid" src="css/map.png" style="width: 100%;"></div></div>
+<div class="row" style="margin:30px 22px;">
+  <div class="col-md-4 col-sm-4">
+    <p><a href="#" class="text-body">Atlanta</a></p>
+    <p><a href="#" class="text-body">Austin</a></p>
+    <p><a href="#" class="text-body">Baltimore-MaryLand</a></p>
+    <p><a href="#" class="text-body">Boston</a></p>
+    
+    <p><a href="#" class="text-body">Charlotte</a></p>
+    <p><a href="#" class="text-body">Chicago</a></p>
+  </div>
+  <div class="col-md-4 col-sm-4">
+    <p><a href="#" class="text-body">Dallas-Fort Worth</a></p>
+    <p><a href="#" class="text-body">Denver</a></p>
+    <p><a href="#" class="text-body">Las Vegas</a></p>
+    <p><a href="#" class="text-body">Los Angeles</a></p>
+    <p><a href="#" class="text-body">Miami</a></p>
+    <p><a href="#" class="text-body">Minneapolis-St.Paul</a></p>
+  </div>
+  <div class="col-md-4 col-sm-4">
+    <p><a href="#" class="text-body">New York City</a></p>
+    <p><a href="#" class="text-body">Palm Springs</a></p>
+    <p><a href="#" class="text-body">Philadelphia</a></p>
+    <p><a href="#" class="text-body">Phoenix</a></p>
+    <p><a href="#" class="text-body">Pittsburgh</a></p>
+    <p><a href="#" class="text-body">Portland</a></p>
+  </div>
+</div>
+
+<h2 style="margin-left:22px">Countries With Uber Eats</h2>
+<div class="row" style="margin:30px 22px;">
+  <div class="col-md-3 col-sm-3">
+    <p><a href="#" class="text-body">United States</a></p>
+    <p><a href="#" class="text-body">Spain</a></p>
+    <p><a href="#" class="text-body">Brazil</a></p>
+    <p><a href="#" class="text-body">Mexico</a></p>
+    
+    <p><a href="#" class="text-body">France</a></p>
+    <p><a href="#" class="text-body">Japan</a></p>
+  </div>
+  <div class="col-md-3 col-sm-3">
+    <p><a href="#" class="text-body">Canada</a></p>
+    <p><a href="#" class="text-body">Australia</a></p>
+    <p><a href="#" class="text-body">Poland</a></p>
+    <p><a href="#" class="text-body">United Kingdom</a></p>
+    <p><a href="#" class="text-body">Italy</a></p>
+    <p><a href="#" class="text-body">Portugal</a></p>
+  </div>
+  <div class="col-md-3 col-sm-3">
+    <p><a href="#" class="text-body">Switzerland</a></p>
+    <p><a href="#" class="text-body">Chile</a></p>
+    <p><a href="#" class="text-body">New Zealand</a></p>
+    <p><a href="#" class="text-body">Taiwan(ROC)</a></p>
+    <p><a href="#" class="text-body">South Africa</a></p>
+    <p><a href="#" class="text-body">Belgium</a></p>
+  </div>
+  <div class="col-md-3 col-sm-3">
+    <p><a href="#" class="text-body">Ecuador</a></p>
+    <p><a href="#" class="text-body">Ireland</a></p>
+    <p><a href="#" class="text-body">Sri Lanka</a></p>
+    <p><a href="#" class="text-body">Sweden</a></p>
+    <p><a href="#" class="text-body">Guatemala</a></p>
+    <p><a href="#" class="text-body">Costa Rica</a></p>
+  </div>
+</div>
+
+</section>
+
+
+<section class="container-fluid" style="background-color: black; padding-bottom: 80px;">
+  <div class="row" style="padding-top: 60px;">
+  <div class="col-md-6">
+<img src="css/uber-white.png" class="foot-img">
+<p><a href="#"><img src="css/apple.png" class="foot-img1"></a>><a href=""><img src="css/playstore.png" class="foot-img1"></a></p>
+  </div>
+  <div class="col-md-3 col-sm-3">
+    <p><a href="#" class="foot-link">Get Help</a></p>
+    <p><a href="#" class="foot-link">Buy gift cards</a></p>
+    <p><a href="#" class="foot-link">Add your restaurant</a></p>
+    <p><a href="#" class="foot-link">Sign up to deliver</a></p>
+    <p><a href="#" class="foot-link">Create a business account</a></p>
+    <p><a href="#" class="foot-link">Save on your first order</a></p>
+  </div>
+  <div class="col-md-3 col-sm-3">
+    <p><a href="#" class="foot-link">Restaurants near me</a></p>
+    <p><a href="#" class="foot-link">View all cities</a></p>
+    <p><a href="#" class="foot-link">View all countries</a></p>
+    <p><a href="#" class="foot-link">Pickup near me</a></p>
+    <p><a href="#" class="foot-link">About Uber Eats</a></p>
+    <p><a href="#" class="foot-link"><i class="fa-solid fa-language"></i> English</a></p>
+  </div>
+</div>
+<hr style="color:white;height:3px;">
+
+<span style="position:absolute">
+  <a href="#"><i class="fa-brands fa-facebook-square"></i></a>
+  <span style="margin-right: 20px;"></span>
+  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+  <span style="margin-right: 20px;"></span>
+  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+</span>
+<div> <br></div>
+  <div class="flex-container">
+    <div style="flex-grow: 8;">   </div>
+    <div style="flex-grow: 1"><a href="#"class="foot-link">Privay policy</a></div>
+    <div style="flex-grow: 1"><a href="#"class="foot-link">Terms</a></div>
+    <div style="flex-grow: 1"><a href="#"class="foot-link">Pricing</a></div>
+    <div style="flex-grow: 1"><a href="#"class="foot-link">Do not sell my info(California)</a></div>
+  </div>
+  <div class="foot-link last" >
+   <div>2022 Uber Technologies Inc.</div>
+  </div>
+
+
+
+</section>
+<script src="action.js">
+    </script>
+</body>
+
+</html>
